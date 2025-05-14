@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Digital Clock</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Aldrich'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <div class="weather-info">
+        <h2 id="city">Río Grande, Argentina</h2>
+        <div class="temperature">
+            <span id="temp">--</span>°C
+        </div>
+    </div>
+    <div class="bookmark-container">
+      <div class="bookmark-grid">
+        <a href="https://app.tuta.com/mail/OHw-3Yj-1N-9" class="bookmark-item">
+          <span>Tuta</span>
+        </a>
+        <a href="https://www.youtube.com" class="bookmark-item">
+
+          <span>YouTube</span>
+        </a>
+        <a href="https://www.github.com" class="bookmark-item">
+
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.gmail.com" class="bookmark-item">
+          <span>Gmail</span>
+        </a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
