@@ -20,7 +20,7 @@ function showTime(){
 
 showTime();
 
-const apiKey = 'bd2eb6f0f9949b634ebdc7a808a671c3'; // You'll need to get an API key from OpenWeatherMap
+const apiKey = 'API_KEY'; // You'll need to get an API key from OpenWeatherMap
 
 async function getWeather() {
     try {
